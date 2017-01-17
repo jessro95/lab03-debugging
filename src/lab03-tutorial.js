@@ -4,6 +4,7 @@ function sum(n){
 	if (n==0) { // base case
 	     return 0;
 	} else { //recursive case
+		console.log(n);
 		return sum(n-1) + n;
 	}	
 }
